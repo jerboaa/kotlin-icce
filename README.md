@@ -1,2 +1,10 @@
-# kotlin-icce
-Reproducer for IncompatibleClassChangeError
+# Reproducer for IncompatibleClassChangeError
+
+## Prerequisites
+* Maven
+
+## Steps
+
+  ```bash
+  ./run.sh
+  ```
