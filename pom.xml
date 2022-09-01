@@ -13,7 +13,7 @@
         <kotlin.version>1.7.10</kotlin.version>
 	<!-- <kotlin.version>1.7.10</kotlin.version> !-->
         <junit.version>4.13.1</junit.version>
-        <main.class>kotlin.TestKt</main.class>
+        <main.class>hello.JavaHello</main.class>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 

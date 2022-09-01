@@ -13,9 +13,10 @@ var baz: Int by Delegates.vetoable(0) { property, oldValue, newValue ->
 
 val KotlinHelloString : String = "Hello from Kotlin!"
 
+val g = Class.forName("hello.Test\$special\$\$inlined\$vetoable\$1").declaringClass
+val f = Class.forName("hello.Test\$special\$\$inlined\$sortedByDescending\$1").declaringClass
+
 fun getHelloStringFromJava() : String {
-    val g = Class.forName("hello.Test\$special\$\$inlined\$vetoable\$1").declaringClass
-    val f = Class.forName("hello.Test\$special\$\$inlined\$sortedByDescending\$1").declaringClass
     println(g)
     println(f)
     val x = Test()
